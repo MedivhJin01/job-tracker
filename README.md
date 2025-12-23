@@ -4,6 +4,34 @@ A full-stack job application tracking and recruitment platform that helps job ap
 
 ---
 
+## How to Run the App Locally
+
+### 1. Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### 2. Clone the Repo
+    git clone https://github.com/your-username/jobtracker.git
+    cd jobtracker
+
+### 3. Install Dependencies
+    npm install
+
+### 4. Create .env file in the project root
+    REDIS_URL=Redis_URL
+    SESSION_TTL_SECONDS=Session_Time
+    DATABASE_URL=DB_URL
+    JWT_SECRET=JWT_Secret
+    OPENAI_API_KEY=OPENAI_API_KEY
+
+### 5. Run
+    npm run dev
+
+### 6. Check the App
+    http://localhost:3000
+
+---
+
 ## Overview
 
 This platform is designed for two user roles:
@@ -15,7 +43,7 @@ The application provides role-based dashboards, protected routes, and an intuiti
 
 ---
 
-## Applicant
+## Applicant Features
 
 - View dashboard with application statistics  
 - Track job applications (internal & external)  
@@ -35,7 +63,7 @@ The application provides role-based dashboards, protected routes, and an intuiti
 
 ---
 
-## Recruiter
+## Recruiter Features
 
 - View recruiter dashboard  
 - Post new job listings  
@@ -60,33 +88,4 @@ The application provides role-based dashboards, protected routes, and an intuiti
 ![Login Page](docs/images/login.png)
 ![Sign up Page](docs/images/signup.png)
 
----
 
-## How to Run the App Locally
-
-### 1. Prerequisites
-- Node.js 18+
-- npm or yarn
-
----
-
-### 2. Clone the Repo
-```bash
-git clone https://github.com/your-username/jobtracker.git
-cd jobtracker
-
-3. Install Dependencies
-npm install
-
-4. Create .env file in the project root
-REDIS_URL=Redis_URL
-SESSION_TTL_SECONDS=Session_Time
-DATABASE_URL=DB_URL
-JWT_SECRET=JWT_Secret
-OPENAI_API_KEY=OPENAI_API_KEY
-
-5. Run
-npm run dev
-
-6. Check the App
-http://localhost:3000
