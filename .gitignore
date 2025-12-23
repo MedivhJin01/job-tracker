@@ -1,0 +1,63 @@
+# ===============================
+# Node / Next.js
+# ===============================
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# ===============================
+# Environment variables (SECRETS)
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Prisma
+# ===============================
+prisma/dev.db
+prisma/dev.db-journal
+
+# ===============================
+# Logs
+# ===============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Build artifacts
+# ===============================
+*.log
+*.cache
+
+# ===============================
+# Optional: lockfiles (keep ONE)
+# ===============================
+# If you use npm (recommended)
+# keep package-lock.json
+# If you use pnpm or yarn, ignore npm lock
+# package-lock.json
+
+# ===============================
+# Misc
+# ===============================
+*.swp
+*.swo
